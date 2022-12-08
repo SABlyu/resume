@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    font-family: "Oswald";
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+    color:aliceblue;
+    
+    /*text-decoration: overline;*/
+    /*font-style: italic;*/ 
+
+    letter-spacing: 1px;
+    background-color: #333;
+    
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 28px;
+    color:aliceblue;
+    border-width: 10px;
+    border-color: rgb(16, 127, 196);
+}
+
+.menu {
+    background: #008acb;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+    display: flex
+}
+
+.menu h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.menu h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.menu img {
+    border-radius:100%;
+    width: 210px;
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+.menu p {
+    font-size: 15px;
+    color: rgba(253, 254, 254, 0.915);
+
+}
+
+h3 {
+    font-size: 23px;
+    color:aliceblue;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .3s;
+    padding-right: 5px;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #e9f32b;
+    font-size: 18px;
+}
+
+.oli {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    padding-top: 3px;
+    list-style: none;
+}
+
+/*.oli li {
+    margin-bottom: 5px;
+    border-bottom: 1px;
+    border-bottom: solid;
+    border-color: #e9f32b;
+
+}*/
+
+.Hobbi {
+    /*background: #008acb;*/
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+    
+}
+
+.class1 {
+    text-align: center;
+    padding-right: 38px;
+    padding-left: 38px;
+    display:inline-block
+    
+
+}
+
+.Hobbi .class1 img {
+    width: 120px;
+
+}
+
+.Hobbi .class1 p {
+    margin: auto;
+}
+
+.Hobbi .class1 h4 {
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+
+.tabl {
+    width: 100%;
+    background: #008acb;
+    padding: 30px 30px 30px 60px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+
+.tabl thead {
+    text-align: left;
+
+}
+
+.tabl td {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+
+.tabl td:hover {
+    background: #fcfdfe;
+    color: #333;
+    border-radius: 5px;
+
+}
+
+.blok2 h3 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 16px;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 254, 254);
+    color: rgb(249, 244, 244);
+    padding: 15px 0px 10px;
+    outline: none;
+
+}
+
+button {
+    background: #008acb;
+    margin-top: 15px;
+    color: aliceblue;
+    font-family: "Oswald";
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: all .2s;
+}
+
+button:hover {
+    color: #f6f8f9;
+    background: rgb(162, 6, 6);
+}
